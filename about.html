@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <title>Cenkay Arapisaoğlu</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <script src="js/nav.js"></script>
+    <script src="https://use.fontawesome.com/28e787878c.js"></script>
+    <style>
+    p {
+      font-family: "Times New Roman", Times, serif;
+    }
+    body{
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+    #container{
+      flex:1;
+    }
+    footer{
+      background-color: #000000;
+      color: #ffffff;
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+    <div class="topnav" id="myTopnav">
+      <a href="home.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="skills.html">Skills & Certificates</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+        <header>
+        <div class="row">
+          <div class="mx-auto mt-4 col-m-3"><h1>Cenkay Arapisaoğlu</h1></div>
+          <div><img src="images/me.jpg" alt="myself" class="rounded-circle"></div>
+        </div>
+        </header>
+        <section>
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class=" mx-auto" src="images/im1.jpg" alt="Kuleli">
+                <div class="carousel-caption">
+                  <h3>Kuleli Military High School</h3>
+                  <p>(2005-2009)</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class=" mx-auto" src="images/im2.jpg" alt="Bogazici">
+                <div class="carousel-caption">
+                  <h3>Boğazici University</h3>
+                  <p>(2011-2017)</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class=" mx-auto" src="images/im3.jpg" alt="Bogazici crew">
+                <div class="carousel-caption">
+                  <h3>Bogazici Rowing Team</h3>
+                  <p>(Turkey Championship 2nd place)</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="  mx-auto" src="images/im4.jpg" alt="Deer Runs">
+                <div class="carousel-caption">
+                  <h3>Deer Runs 28k</h3>
+                  <p>Trail running</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="  mx-auto" src="images/im5.jpg" alt="Stuttgart">
+                <div class="carousel-caption">
+                  <h3>Visiting Stuttgart</h3>
+                  <p>Stuttgart Schlossplatz</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="  mx-auto" src="images/im6.jpg" alt="Australia">
+                <div class="carousel-caption">
+                  <h3>Backpacking Australia</h3>
+                  <p>Blue Mountains-Sydney</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div id="about-p" class="float-left">
+            <p style="font-size:130%;">I was born in the Mediterranean region of Turkey in Antalya in 1991. I lived with my parents up to 14 years old and played in junior soccer team in Antalyaspor. I have gone to military school and played in handball team during that time. I have been graduated from Kuleli Military high school on 2009. I was on the verge of being officer before quitting military college in 2010. I was shot putter in military college. I have worked one and half year for the university entry exam in Turkey and got 254th place out of 2+ million and placed in Bogazici University. During that exam preparation period, i played tennis with my coach for over a year. I have engaged in rowing team in the university for 1 and half year which was a highly disciplined period in my life. After that, i participated trail running on my own. I have graduated as a mechanical engineer in 2017 with a roller coaster period and did some great internships in industries like automation technology, process technology, instrumentation and equipment desing, car heaters etc. I decided to pursue a career in CS after all i've been going through. That suited best for me. Now i am preparing for Master of CS. Thank you!</p>
+          </div>
+        </section>
+    </div>
+    <footer>
+      &copy; 2017-2018 All rights reserved Powered by
+      <i class="fa fa-html5" aria-hidden="true"></i>
+    </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
